@@ -19,7 +19,7 @@ jobs:
         with:
           pipelines: "scan_codebase" 
           # *** Only requesting SPDX format ***
-          output-formats: "spdx" 
+          output-formats: "spdx xlsx" 
           check-compliance: true 
 
       - name: Upload Scan Results Artifact
