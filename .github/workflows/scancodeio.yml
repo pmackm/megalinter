@@ -1,3 +1,9 @@
+name: Run ScanCode.io SCA
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 jobs:
   scancode_job:
     runs-on: ubuntu-latest
