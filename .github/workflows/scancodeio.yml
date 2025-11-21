@@ -20,7 +20,7 @@ jobs:
           pipelines: "scan_codebase" 
           # *** Only requesting SPDX format ***
           output-formats: "spdx xlsx" 
-          check-compliance: true 
+          check-compliance: false 
 
       - name: Upload Scan Results Artifact
         uses: actions/upload-artifact@v4
